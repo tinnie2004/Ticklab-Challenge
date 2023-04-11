@@ -9,7 +9,7 @@
 	.text 		
 
 # The label 'main' represents the starting point
-main:
+main                                  :
 	li $t2, 25		# Load immediate value (25) 
 	lw $t3, value		# Load the word stored in value (see bottom)
 	add $t4, $t2, $t3	# Add
@@ -30,5 +30,7 @@ main:
 	# in memory for a single 4-byte word (or multiple 4-byte words)
 	# and assigns that memory location an initial value
 	# (or a comma separated list of initial values)
-value:	.word 12
-Z:	.word 0
+value:
+Z:
+djs_jsd:
+hhhhhh:
